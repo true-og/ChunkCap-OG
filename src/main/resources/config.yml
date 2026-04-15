@@ -11,7 +11,7 @@ perChunkLimits:
   hangings: 100
   # Applies to BOAT, CHEST_BOAT, MINECART, MINECART_CHEST, MINECART_FURNACE,
   # MINECART_HOPPER, MINECART_TNT, MINECART_COMMAND, MINECART_MOB_SPAWNER.
-  vehicles: 100
+  vehicles: 50
 
 exemptWorlds:
   - none
