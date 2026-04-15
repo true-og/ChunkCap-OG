@@ -1,0 +1,18 @@
+# ChunkCap-OG Config
+# Cap is per 16x16 chunk column (full height).
+
+# splitByType: if true, each EntityType counts separately
+# (e.g. ITEM_FRAME limit and PAINTING limit applied independently).
+# If false, all hangings share one pool and all vehicles share another.
+splitByType: true
+
+perChunkLimits:
+  # Applies to ITEM_FRAME, GLOW_ITEM_FRAME, PAINTING, LEASH_HITCH.
+  hangings: 20
+  # Applies to BOAT, CHEST_BOAT, MINECART, MINECART_CHEST, MINECART_FURNACE,
+  # MINECART_HOPPER, MINECART_TNT, MINECART_COMMAND, MINECART_MOB_SPAWNER.
+  vehicles: 10
+
+exemptWorlds:
+  - lobby
+  - spawn
