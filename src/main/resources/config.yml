@@ -8,11 +8,10 @@ splitByType: true
 
 perChunkLimits:
   # Applies to ITEM_FRAME, GLOW_ITEM_FRAME, PAINTING, LEASH_HITCH.
-  hangings: 20
+  hangings: 100
   # Applies to BOAT, CHEST_BOAT, MINECART, MINECART_CHEST, MINECART_FURNACE,
   # MINECART_HOPPER, MINECART_TNT, MINECART_COMMAND, MINECART_MOB_SPAWNER.
-  vehicles: 10
+  vehicles: 100
 
 exemptWorlds:
-  - lobby
-  - spawn
+  - none

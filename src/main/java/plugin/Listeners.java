@@ -86,38 +86,25 @@ public class Listeners implements Listener {
 
     private static boolean isHanging(EntityType type) {
 
-        switch (type) {
+        return switch (type) {
 
-            case ITEM_FRAME:
-            case GLOW_ITEM_FRAME:
-            case PAINTING:
-            case LEASH_HITCH:
-                return true;
-            default:
-                return false;
+            case ITEM_FRAME, GLOW_ITEM_FRAME, PAINTING, LEASH_HITCH -> true;
+            default -> false;
 
-        }
+        };
 
     }
 
     private static boolean isVehicle(EntityType type) {
 
-        switch (type) {
+        return switch (type) {
 
-            case BOAT:
-            case CHEST_BOAT:
-            case MINECART:
-            case MINECART_CHEST:
-            case MINECART_FURNACE:
-            case MINECART_HOPPER:
-            case MINECART_TNT:
-            case MINECART_COMMAND:
-            case MINECART_MOB_SPAWNER:
-                return true;
-            default:
-                return false;
+            case BOAT, CHEST_BOAT, MINECART, MINECART_CHEST, MINECART_FURNACE, MINECART_HOPPER, MINECART_TNT,
+                    MINECART_COMMAND, MINECART_MOB_SPAWNER ->
+                true;
+            default -> false;
 
-        }
+        };
 
     }
 
