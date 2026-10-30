@@ -1,7 +1,7 @@
 name: ChunkCap-OG
 author: NotAlexNoyle
 description: Per-chunk cap for hangings (item frames, paintings) and vehicles (boats, minecarts).
-website: https://github.com/true-og/ChunkCap-OG/
+website: https://git.trueog.net/trueog/ChunkCap-OG/
 version: '${version}'
 api-version: '${apiVersion}'
 main: plugin.ChunkCapOG
