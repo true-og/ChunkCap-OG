@@ -10,4 +10,4 @@ Minecraft API: 1.19
 
 API Jar: 1.19.4 Purpur
 
-ChunkCap-OG is public domain software released under the terms of [The Unlicense](https://github.com/true-og/ChunkCap-OG/blob/main/LICENSE).
+ChunkCap-OG is public domain software released under the terms of [The Unlicense](https://git.trueog.net/trueog/ChunkCap-OG/src/branch/main/LICENSE).
